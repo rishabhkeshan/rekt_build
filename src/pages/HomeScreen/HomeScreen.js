@@ -10,6 +10,15 @@ import Rekt from "../../assets/rekt.svg";
 import Memes from "../../assets/memes.svg";
 import MoreMemes from "../../assets/morememes.svg";
 import EvenMoreMemes from "../../assets/evenmorememes.svg";
+import Twitter from "../../assets/twitter.svg";
+import Lazypoet from "../../assets/lazypoet.svg";
+import Abbasali from "../../assets/abbasali.svg";
+import Bunsenburner from "../../assets/bunsenburner.svg";
+import Dheeraj from "../../assets/dheeraj.svg";
+import Gaurang from "../../assets/gaurang.svg";
+import Groovyman from "../../assets/groovyman.svg";
+import Harshith from "../../assets/harshith.svg";
+import Nftindian from "../../assets/nftindian.svg";
 
 
 export default function HomeScreen() {
@@ -65,7 +74,11 @@ export default function HomeScreen() {
           actually come up with a plan for 2023...but probably not.
         </div>
         <div className="homescreen_aboutsection_element">
-          <img src={Rekt} alt="rekt" className="homescreen_aboutsection_element_img"/>
+          <img
+            src={Rekt}
+            alt="rekt"
+            className="homescreen_aboutsection_element_img"
+          />
         </div>
       </section>
       <section className="homescreen_roadmapsection">
@@ -117,6 +130,144 @@ export default function HomeScreen() {
             src={TeamTitle}
             alt="Roadmap"
           />
+        </div>
+        <div className="homescreen_teamsection_cards">
+          <div className="homescreen_teamsection_cards_card">
+            <div className="homescreen_teamsection_cards_card_pfp">
+              <img
+                src={Lazypoet}
+                alt="lazypoet"
+                className="homescreen_teamsection_cards_card_pfp_img"
+              />
+            </div>
+            <div className="homescreen_teamsection_cards_card_name">
+              Lazypoet.eth
+            </div>
+            <div className="homescreen_teamsection_cards_card_social">
+              <a rel="noopener noreferrer" target="_blank"href="https://twitter.com/_lazypoet_">
+                <img src={Twitter} alt="twitter" />
+              </a>
+            </div>
+          </div>
+          <div className="homescreen_teamsection_cards_card">
+            <div className="homescreen_teamsection_cards_card_pfp">
+              <img
+                src={Harshith}
+                alt="harshith"
+                className="homescreen_teamsection_cards_card_pfp_img"
+              />
+            </div>
+            <div className="homescreen_teamsection_cards_card_name">
+              Harshith.eth
+            </div>
+            <div className="homescreen_teamsection_cards_card_social">
+              <a rel="noopener noreferrer" target="_blank"href="https://twitter.com/harshith_eth">
+                <img src={Twitter} alt="twitter" />
+              </a>
+            </div>{" "}
+          </div>
+          <div className="homescreen_teamsection_cards_card">
+            <div className="homescreen_teamsection_cards_card_pfp">
+              <img
+                src={Bunsenburner}
+                alt="bunsenburner"
+                className="homescreen_teamsection_cards_card_pfp_img"
+              />
+            </div>
+            <div className="homescreen_teamsection_cards_card_name">
+              Bunsenburner.eth
+            </div>
+            <div className="homescreen_teamsection_cards_card_social">
+              <a rel="noopener noreferrer" target="_blank"href="https://twitter.com/yashsurya1105">
+                <img src={Twitter} alt="twitter" />
+              </a>
+            </div>{" "}
+          </div>
+          <div className="homescreen_teamsection_cards_card">
+            <div className="homescreen_teamsection_cards_card_pfp">
+              <img
+                src={Nftindian}
+                alt="nftindian"
+                className="homescreen_teamsection_cards_card_pfp_img"
+              />
+            </div>
+            <div className="homescreen_teamsection_cards_card_name">
+              Rishabhkeshan.eth
+            </div>
+            <div className="homescreen_teamsection_cards_card_social">
+              <a rel="noopener noreferrer" target="_blank"href="https://twitter.com/keshanrishabh">
+                <img src={Twitter} alt="twitter" />
+              </a>
+            </div>{" "}
+          </div>
+          <div className="homescreen_teamsection_cards_card">
+            <div className="homescreen_teamsection_cards_card_pfp">
+              <img
+                src={Dheeraj}
+                alt="Dheeraj"
+                className="homescreen_teamsection_cards_card_pfp_img"
+              />
+            </div>
+            <div className="homescreen_teamsection_cards_card_name">
+              Dheeraj
+            </div>
+            <div className="homescreen_teamsection_cards_card_social">
+              <a rel="noopener noreferrer" target="_blank"href="https://twitter.com/dsborde">
+                <img src={Twitter} alt="twitter" />
+              </a>
+            </div>{" "}
+          </div>
+          <div className="homescreen_teamsection_cards_card">
+            <div className="homescreen_teamsection_cards_card_pfp">
+              <img
+                src={Gaurang}
+                alt="gaurang"
+                className="homescreen_teamsection_cards_card_pfp_img"
+              />
+            </div>
+            <div className="homescreen_teamsection_cards_card_name">
+              Gaurang.eth
+            </div>
+            <div className="homescreen_teamsection_cards_card_social">
+              <a rel="noopener noreferrer" target="_blank"href="https://twitter.com/iamgaurangdesai">
+                <img src={Twitter} alt="twitter" />
+              </a>
+            </div>{" "}
+          </div>
+          <div className="homescreen_teamsection_cards_card">
+            <div className="homescreen_teamsection_cards_card_pfp">
+              <img
+                src={Groovyman}
+                alt="groovyman"
+                className="homescreen_teamsection_cards_card_pfp_img"
+              />
+            </div>
+            <div className="homescreen_teamsection_cards_card_name">
+              Thegroovyman.eth
+            </div>
+            <div className="homescreen_teamsection_cards_card_social">
+              <a rel="noopener noreferrer" target="_blank"href="https://twitter.com/Thegroovymann">
+                <img src={Twitter} alt="twitter" />
+              </a>
+            </div>{" "}
+          </div>
+          <div className="homescreen_teamsection_cards_card">
+            <div className="homescreen_teamsection_cards_card_pfp">
+              <img
+                src={Abbasali}
+                alt="Abbasali"
+                className="homescreen_teamsection_cards_card_pfp_img"
+              />
+            </div>
+            <div className="homescreen_teamsection_cards_card_name">
+              Abbasali.eth
+            </div>
+            <div className="homescreen_teamsection_cards_card_social">
+              <a rel="noopener noreferrer" target="_blank"href="https://twitter.com/0xGizmo">
+                <img src={Twitter} alt="twitter" />
+              </a>
+            </div>{" "}
+          </div>
         </div>
       </section>
     </article>
