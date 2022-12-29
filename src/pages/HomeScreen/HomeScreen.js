@@ -3,10 +3,14 @@ import React from "react";
 import LandingBanner from "../../assets/rekt_landing.svg";
 import RoadmapTitle from "../../assets/roadmap_title.svg";
 import AboutTitle from "../../assets/about_title.svg";
+import TeamTitle from "../../assets/team_title.svg";
 import Smile from "../../assets/smile_img.svg";
+import Cap from "../../assets/cap.svg";
+import Rekt from "../../assets/rekt.svg";
 import Memes from "../../assets/memes.svg";
 import MoreMemes from "../../assets/morememes.svg";
 import EvenMoreMemes from "../../assets/evenmorememes.svg";
+
 
 export default function HomeScreen() {
   return (
@@ -25,6 +29,11 @@ export default function HomeScreen() {
             className="homescreen_aboutsection_title_img"
             src={AboutTitle}
             alt="Roadmap"
+          />
+          <img
+            src={Cap}
+            className="homescreen_aboutsection_title_img_relative"
+            alt="Cap"
           />
         </div>
         <div className="homescreen_aboutsection_subtitle">
@@ -55,6 +64,9 @@ export default function HomeScreen() {
           let's end the year on a lighthearted note. Who knows, maybe we'll
           actually come up with a plan for 2023...but probably not.
         </div>
+        <div className="homescreen_aboutsection_element">
+          <img src={Rekt} alt="rekt" className="homescreen_aboutsection_element_img"/>
+        </div>
       </section>
       <section className="homescreen_roadmapsection">
         <div className="homescreen_roadmapsection_title">
@@ -65,28 +77,46 @@ export default function HomeScreen() {
           />
         </div>
         <div className="homescreen_roadmapsection_subtitle1">
-            <img className="homescreen_roadmapsection_subtitle1_img"
+          <img
+            className="homescreen_roadmapsection_subtitle1_img"
             src={Memes}
             alt="Memes"
-            />
+          />
         </div>
         <div className="homescreen_roadmapsection_subtitle2">
-            <img className="homescreen_roadmapsection_subtitle2_img"
+          <img
+            className="homescreen_roadmapsection_subtitle2_img"
             src={MoreMemes}
             alt="More Memes"
-            />
+          />
         </div>
         <div className="homescreen_roadmapsection_subtitle3">
-            <img className="homescreen_roadmapsection_subtitle3_img"
+          <img
+            className="homescreen_roadmapsection_subtitle3_img"
             src={EvenMoreMemes}
             alt="Even More Memes"
-            />
+          />
         </div>
         <div className="homescreen_roadmapsection_subtitle4">
-            <img className="homescreen_roadmapsection_subtitle4_img"
+          <img
+            className="homescreen_roadmapsection_subtitle4_img"
             src={Smile}
             alt="Even More Memes"
-            />
+          />
+        </div>
+      </section>
+      <section className="homescreen_teamsection">
+        <div className="homescreen_teamsection_title">
+          <img
+            src={Cap}
+            className="homescreen_teamsection_title_img_relative"
+            alt="Cap"
+          />
+          <img
+            className="homescreen_teamsection_title_img"
+            src={TeamTitle}
+            alt="Roadmap"
+          />
         </div>
       </section>
     </article>
